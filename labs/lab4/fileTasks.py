@@ -5,10 +5,10 @@ import requests
 import os
 from urllib.parse import urlparse
 
-bucket= "bucket-name"
+bucket = "bucket-name"
 expiration = 604800
 
-# downloads the file
+# downloading the file
 url = "https://example.com/file.gif"
 file = "downloaded_file.gif"
 
